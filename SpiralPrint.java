@@ -3,30 +3,6 @@
 import java.util.Arrays;
 
 public class SpiralPrint {
-
-	/*
-	 * 1 2 3 4
-	 * 
-	 * 5 6 7 8
-	 * 
-	 * 9 10 11 12
-	 * 
-	 * 1 2 3 4 8 12 11 10 9 5 6 7 
-	 * 1 2 3 4 8 12 11 10 9 5 6 7
-	 * 1 2 3 4 8 12 11 10 9 5 6 7 
-	 * 
-	 * A b c d e 1
-	 * 
-	 * F g h I j 2
-	 * 
-	 * K l m n o 3
-	 * 
-	 * P q r s t 4
-	 * 
-	 * Output: a b c d e 1 2 3 4 t s r q p k f g h l j o n l m A b c d e 1 2 3 4
-	 * t s r q P K F g h I j o n m l
-	 */
-
 	public static void main(String[] args) {
 		String[][] strtArr1 = { { "1", "2", "3", "4" }, 
 								{ "5", "6", "7", "8"}, 
